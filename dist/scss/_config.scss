@@ -1,0 +1,16 @@
+$primary-color: #FE414A;
+$text-color:#3F3D56;
+$bg-light:#F3F3F7;
+
+@mixin tEase {
+    transition: 0.4s ease;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
