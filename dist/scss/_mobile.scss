@@ -1,0 +1,132 @@
+@media screen and (max-width:768px){
+    header{
+
+        .navbar{
+
+            .menu{
+                position: absolute;
+               visibility: hidden;
+            }
+            .burger{
+               display: block !important;
+               margin-right: 20px;
+            }
+        }
+        .text-lead{
+            
+           
+            h1{
+                font-size: 4.5rem !important;
+                
+                text-align: center;
+            }
+            span{
+                font-size: 5rem;
+            }
+        }
+    }
+    .grid{
+        flex-direction: column;
+        margin-top: -100px !important;
+        
+    }
+    .offer{
+        
+        .offer-grid{
+            flex-direction: column;
+            align-items: center;
+
+            .offer-grid-item{
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .delivery{
+        flex-direction: column;
+
+        .left-row{
+            .t1{
+                font-size: 2.5rem !important;
+            }
+            .t2{
+                font-size: 3.5rem !important;
+            }
+        }
+
+        .right-row{
+
+            img{
+                width: 80% !important;
+            }
+        }
+        
+    }
+    .subscribe{
+
+        .subscribe-content{
+            margin:auto !important ;
+        }
+        .btn-subscribe{
+            font-size: 1.3rem !important;
+            padding: 12px 15px !important;
+
+        }
+    }
+    .client{
+
+        .client-grid-item{
+            i{
+                font-size: 3rem !important;
+            }
+            .text{
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+    .contactUS{
+        h1{
+            font-size: 3rem !important;
+        }
+        span{
+            font-size: 4rem !important;
+        }
+        .btn-contact{
+            font-size: 1.5rem !important;
+        }
+    }
+    .footer{
+       display: grid !important;
+       grid-template-columns: repeat(auto-fit,minmax(24rem,1fr));
+        grid-gap: 6rem !important;
+
+        
+        .about{
+
+            
+            .logo{
+                margin-top: inherit !important;
+            }
+            
+
+        }
+       
+       /* flex-direction: column-reverse;
+        align-items: initial !important;
+
+        .footer-gird{
+            margin: 20px 0;
+
+            li{
+                padding: 5px 0 !important;
+            }
+        }
+        .about{
+            margin-top: 70px !important;
+        }
+        */
+        span{
+            left: 6% !important;
+        }
+    }
+} 
