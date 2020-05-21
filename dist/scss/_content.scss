@@ -75,7 +75,8 @@
         .offer-grid-item{
             background: #fff;
             padding: 40px;
-            max-width: 380px;
+            max-width: 100%;
+            width: 380px;
             height: 450px;
             position: relative;
 
@@ -310,5 +311,123 @@
 
         }
        
+    }
+}
+//---contact US
+.contactUS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify !important;
+    width: 100%;
+    padding: 80px 70px;
+    background: #fff;
+
+    h1{
+        font-size: 4.5rem;
+        width: 50%;
+        text-align: left;
+        color: $text-color;
+    }
+    span{
+        color: $primary-color;
+        font-family: 'Courgette', cursive;
+        font-size: 5rem;
+        
+    }
+    .btn-contact{
+        font-size: 2rem;
+        color: #fff;
+        padding: 12px 30px;
+        text-align: center;
+        background: $primary-color;
+        border: none;
+        border-radius: 40px;
+        font-weight: bold;
+        @include tEase;
+        cursor: pointer;
+
+        &:hover{
+            background: darken($primary-color,10%);
+        }
+    }
+}
+//---footer
+.footer{
+    background: $text-color;
+    color: #fff;
+    padding:100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    .footer-gird{
+        flex: 1;
+        
+        
+
+        .logo{
+            display: flex;
+            margin-top: -32px;
+            
+            i{
+                background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+               -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent;
+                font-size: 3.5rem;
+                margin-right: 10px;
+            }
+            h1{
+                font-size: 3rem;
+                letter-spacing: 1px;
+            }
+           
+        }
+        .text{
+            font-size: 1.5rem;
+            width: 60%;
+            line-height: 25px;
+            color: #B2AFCF;
+            margin: 20px 0;
+        }
+        h2{
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+
+        }
+        li{
+            font-size: 1.5rem;
+            padding: 10px 0;
+            color: #B2AFCF;
+            cursor: pointer;
+            @include tEase;
+            text-transform: capitalize;
+
+            &:hover{
+                color: #fff;
+            }
+        }
+        i{
+            margin-right: 10px;
+        }
+      
+    }
+    .about{
+        flex: 1.8;
+    }
+    .last-footer{
+        li{
+            text-transform: initial !important;
+        }
+    }
+    .copyright{
+        position: absolute;
+        color: #B2AFCF;
+        font-size: 1.4rem;
+        bottom: 0;
+        left: 40%;
+        margin-bottom: 20px;
     }
 }
