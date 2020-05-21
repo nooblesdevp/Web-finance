@@ -32,6 +32,7 @@ header{
         }
         .menu{
             display: flex;
+           
 
             .menu-link{
                 margin-left: 60px;
@@ -49,6 +50,18 @@ header{
                       color: $primary-color;
                     }
                 }
+            }
+        }
+        .burger{
+            display: none;
+
+            .line1,.line2{
+                width: 25px;
+                height: 3px;
+                background: #fff;
+                margin: 5px;
+                cursor: pointer;
+                //border: 1px solid #fff;
             }
         }
     }
