@@ -130,3 +130,49 @@
         }
     }
 } 
+
+@media screen and (max-width: 425px){
+
+   
+
+    .subscribe-content{
+        width: 80% !important;
+       padding-top: 30px !important;
+
+        .text{
+            font-size: 14px !important;
+        }
+
+        .subscibe-input{
+            margin-top: 50px  !important;
+        }
+    }
+    .t1{
+        font-size: 2.5rem !important;
+    }
+
+    .client-grid-item{
+        padding-left: 30px !important;
+    }
+
+    .contactUS {
+
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+
+        h1{
+            font-size: 14px !important;
+            
+            span{
+                font-size: 15px !important;
+            }
+        }
+
+        .btn-contact{
+            font-size: 12px !important;
+            padding: 10px 20px !important;
+        }
+    }
+    
+   
+}
